@@ -665,7 +665,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+@media (max-width: 767px) {
+  .footer .container {
+    flex-direction: column;
+  }
+}
 .footer .container p {
   text-transform: capitalize;
 }
