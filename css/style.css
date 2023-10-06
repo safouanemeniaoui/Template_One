@@ -660,6 +660,21 @@ body {
   color: white;
 }
 
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container p {
+  text-transform: capitalize;
+}
+
+.footer .container p span {
+  color: var(--mainColor);
+  font-weight: bold;
+}
+
 .footer a {
   text-decoration: none;
   font-weight: bold;
